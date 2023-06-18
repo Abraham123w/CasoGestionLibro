@@ -1,0 +1,127 @@
+/* Estilos generales */
+body {
+    font-family: "Amazon Ember", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+h1 {
+    color: #232f3e;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Estilos para los botones */
+.botones {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.boton {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    margin: 0 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #e67e00;
+}
+
+/* Estilos para el formulario de agregar libro */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #a6a6a6;
+    border-radius: 4px;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+select:focus {
+    border-color: #ff9900;
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #e67300;
+}
+
+/* Estilos para el contenedor del formulario */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para el título */
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
